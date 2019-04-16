@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body{
+	width: 100%;
+	background-image: url("../background/black-background.jpg");
+	background-repeat: no-repeat;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	left: 0;
+    bottom: 0;
+    position: fixed;
+    color: white;
+    background-image: linear-gradient(to bottom,#212121,#222);
+    border-top: 1px solid #c1e8ff;
+}
+
+.author{
+	float:right;
+	font-size: 14px;
+	margin: 20px 20px;
+}
+
+.header{
+	height: 100px;
+	background: #6bb975cf;
+	padding: 0 20px;
+	opacity: 0.95;
+	text-align: center;
+}
+
+.header a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.logo{
+	line-height: 100px;
+	font-family: agency fb, sans-serif;
+	float: left;
+	text-transform: uppercase;
+	margin-left: 41.5%;
+	font-size: 40px;
+}
+
+nav{
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	height: 60px;
+	background-color: #212121;
+	opacity: 0.9;
+	text-align: center;
+}
+
+.menu{
+	display: inline-block;
+	left: 0;
+	margin-top: -20px;
+}
+
+.menu a{
+	color: #fff;
+	line-height: 100px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 0 10px;
+	margin: 0 75px;
+}
+
+.menu a:hover{
+	color: #6bb975;
+}
